@@ -8,9 +8,9 @@ Clone 你的 fork 到本地端
 
 從本地建立一個 branch，命名格式為 `feature/<yourname>`
 
-建立一個新資料夾：names/（如果已存在可共用）
+建立一個新資料夾：`names/`（如果已存在可共用）
 
-在資料夾中建立一個 <你的名字>.md，內容隨意
+在資料夾中建立一個 `<你的名字>.md`，內容隨意
 
 回到 GitHub，開一個 Pull Request，目標分支為本 repo 的 `push_to_here`
 
