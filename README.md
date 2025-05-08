@@ -41,8 +41,8 @@ Clone 你的 fork 到本地端
 在你自己的 GitHub 帳號下，找到剛剛 fork 出來的 repo，點選 `Code` → `Copy HTTPS` 或 `SSH` 連結。
 
 ```bash
-git clone https://github.com/your-username/git-practice.git
-cd git-practice
+git clone <Git link>
+cd makereal-lab-git-test
 ```
 
 ---
@@ -50,18 +50,18 @@ cd git-practice
 ### ✅ 步驟三：建立新分支
 
 ```bash
-git checkout -b feature/intro-alice-wang
+git checkout -b feature/alice-wang
 ```
 
 ---
 
 ### ✅ 步驟四：新增檔案
 
-建立 `intro/` 資料夾（如果尚未存在）並新增檔案：
+建立 `names/` 資料夾（如果尚未存在）並新增檔案：
 
 ```bash
-mkdir -p intro
-nano intro/alice-wang.md
+mkdir -p names
+nano names/alice-wang.md
 ```
 
 檔案內容範例：
@@ -80,8 +80,8 @@ nano intro/alice-wang.md
 ### ✅ 步驟五：加入 Git 並提交
 
 ```bash
-git add intro/alice-wang.md
-git commit -m "add intro for Alice Wang"
+git add names/alice-wang.md
+git commit -m "add name for Alice Wang"
 ```
 
 ---
@@ -89,7 +89,7 @@ git commit -m "add intro for Alice Wang"
 ### ✅ 步驟六：推送到 GitHub
 
 ```bash
-git push origin feature/intro-alice-wang
+git push origin feature/alice-wang
 ```
 
 ---
@@ -101,7 +101,7 @@ git push origin feature/intro-alice-wang
 3. 確保：
 
    * **From**: your-username/feature/intro-alice-wang
-   * **To**: original-repo/main
+   * **To**: original-repo/push_to_here
 4. 留下簡單訊息後，送出 PR！
 
 ---
@@ -109,9 +109,4 @@ git push origin feature/intro-alice-wang
 ### 🎉 你完成了！
 
 等待 repo 擁有者 review 和 merge，你就成功參與了一次 Git 協作流程！
-
----
-
-需要我幫你產生一個 `EXAMPLE.md` 文件，或用你的名字示範一次實際操作指令內容嗎？
-
-朱修毅 (劉以翔你自己也要補)
+</details>
